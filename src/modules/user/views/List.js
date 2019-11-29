@@ -18,8 +18,8 @@ class ListUser extends React.Component {
     this.types = ["All", "0", "1", "2", "3", "4"];
 
     this.state = {
-      users: [],
-      filterUsers: [],
+      users: this.props.users,
+      filterUsers: this.props.users,
       types: {
         all: true,
         type_0: true,
