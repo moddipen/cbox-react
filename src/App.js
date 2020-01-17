@@ -1,12 +1,12 @@
 import React from "react";
-import ListUser from "./modules/user/views/List";
+import Routes from "./routes/index.jsx";
 
-function App() {
+const App = () => {
   return (
     <div className="container">
-      <ListUser />
+      <Routes />
     </div>
   );
-}
+};
 
 export default App;
